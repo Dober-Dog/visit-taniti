@@ -1,0 +1,168 @@
+
+.eat-page {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Intro section */
+
+.eat-intro {
+    text-align: center;
+    padding: 20px 50px 35px;
+    box-shadow: 0px 30px 5px -20px gray;
+    border-radius: 10px;
+}
+
+.eat-intro > h2 {
+    font-size: 300%;
+    color: rgb(155, 10, 22);
+    margin-bottom: 15px;
+}
+
+.eat-intro > p {
+    font-size: larger;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Main content layout */
+
+.eat-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.eat-main {
+    width: 65%;
+}
+
+.eat-main > h3 {
+    font-size: 150%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.eat-main > p {
+    font-size: larger;
+    line-height: 1.5;
+}
+
+
+.eat-filters {
+    display: flex;
+    gap: 15px;
+    margin: 30px 0;
+}
+
+.eat-filter {
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px 22px;
+    font-size: large;
+    cursor: pointer;
+    transition: transform .2s, background-color .2s;
+}
+
+.eat-filter:hover {
+    transform: scale(1.05);
+    background-color: sandybrown;
+}
+
+.eat-filter.active {
+    background-color: rgb(155, 10, 22);
+    color: white;
+}
+
+/* Restaurant category cards */
+
+.eat-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+
+.eat-card {
+    width: 300px;
+    min-height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -10px 10px 5px gray;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.eat-card:hover {
+    transform: scale(1.04);
+}
+
+.eat-card > img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.eat-card-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.eat-card-info > h4 {
+    color: rgb(155, 10, 22);
+    font-size: x-large;
+    margin: 0 0 10px;
+}
+
+.eat-card-info > p {
+    font-size: large;
+    line-height: 1.4;
+}
+
+.eat-card-info > span {
+    margin-top: auto;
+    font-weight: bold;
+}
+
+/* Sidebar */
+
+.eat-sidebar {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: sandybrown;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: large;
+    align-self: flex-start;
+}
+
+.eat-sidebar > h3 {
+    font-size: 150%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.eat-sidebar li {
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.eat-sidebar > a {
+    color: rgb(155, 10, 22);
+    font-weight: bold;
+}
+
+.eat-sidebar > a:hover {
+    color: blue;
+}

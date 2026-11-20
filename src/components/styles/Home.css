@@ -1,0 +1,94 @@
+.home {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home > h2 {
+    width: 100%;
+    font-size: 300%;
+    text-align: center;
+    padding-bottom: 40px;
+    box-shadow: 0px 30px 5px -20px gray ;
+    border-radius: 10px;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 400px;
+    box-shadow: -10px 10px 5px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: zoom .5s;
+    cursor: pointer;
+}
+
+.card > h3 {
+    color: rgb(155, 10, 22);
+    margin-top: 0px;
+    margin-bottom: auto;
+    padding-top: 10px;
+    height: 40px;
+    background-color: rgb(211, 211, 211, .6);
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 10px;
+}
+
+.info-text {
+    display: flex;
+    flex-direction: column;
+    font-size: x-large;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(155, 10, 22);
+    background-color: rgb(211, 211, 211, .7);
+    border-radius: 10px;
+}
+
+.card:hover {
+    zoom: 1.1;
+}
+
+.home-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary {
+    width: 65%;
+    font-size: larger;
+}
+
+.summary > h3 {
+    font-size: 150%;
+    border-bottom: 1px solid black;
+}
+
+.island-info {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: sandybrown;
+    width: 30%;
+    font-size: large;
+}
+
+.island-info > h3 {
+    font-size: 150%;
+    border-bottom: 1px solid black;
+    width: 85%;
+    justify-self: center;
+    padding-left: 5%;
+}

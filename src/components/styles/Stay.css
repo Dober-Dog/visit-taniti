@@ -1,0 +1,141 @@
+
+.stay-page {
+    margin: 10px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Intro section */
+
+.stay-intro {
+    text-align: center;
+    padding: 20px 50px 35px;
+    box-shadow: 0px 30px 5px -20px gray;
+    border-radius: 10px;
+}
+
+.stay-intro > h2 {
+    font-size: 300%;
+    color: rgb(155, 10, 22);
+    margin-bottom: 15px;
+}
+
+.stay-intro > p {
+    font-size: larger;
+    max-width: 900px;
+    margin: auto;
+}
+
+/* Main content */
+
+.stay-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.stay-main {
+    width: 65%;
+}
+
+.stay-main > h3 {
+    font-size: 150%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.stay-main > p {
+    font-size: larger;
+    line-height: 1.5;
+}
+
+/* Accommodation cards */
+
+.stay-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.stay-card {
+    width: 300px;
+    min-height: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: -10px 10px 5px gray;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    transition: transform .3s;
+    cursor: pointer;
+}
+
+.stay-card:hover {
+    transform: scale(1.04);
+}
+
+.stay-card > img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.stay-card-info {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.stay-card-info > h4 {
+    color: rgb(155, 10, 22);
+    font-size: x-large;
+    margin: 0 0 10px;
+}
+
+.stay-card-info > p {
+    font-size: large;
+    line-height: 1.4;
+}
+
+/* Sidebar */
+
+.stay-sidebar {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: sandybrown;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: large;
+    align-self: flex-start;
+}
+
+.stay-sidebar > h3 {
+    font-size: 150%;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.stay-sidebar li {
+    margin-bottom: 12px;
+    line-height: 1.4;
+}
+
+.stay-sidebar > p {
+    line-height: 1.5;
+}
+
+.stay-sidebar > a {
+    color: rgb(155, 10, 22);
+    font-weight: bold;
+}
+
+.stay-sidebar > a:hover {
+    color: blue;
+}

@@ -1,0 +1,67 @@
+.navbar {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    height: 50px;
+    justify-content: space-evenly;
+    padding-right: 70%;
+}
+
+.header {
+    background-image: url(/trop_beach.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
+
+.header > h1 {
+    font-size: 400%;
+    margin-left: 100px;
+}
+
+.vert {
+    width: 0px;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.navbar > a, .navbar > a:visited{
+    color: black;
+    text-decoration: none;
+    transition: zoom .5s;
+}
+
+.navbar > a:hover {
+    color: blue;
+    zoom: 1.25
+}
+
+.footer {
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.socials, .sitemap, .contact {
+    justify-self: center;
+}
+
+.socials > img {
+    height: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.sitemap > a, .sitemap > a:visited, .contact > a, .contact > a:visited {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.sitemap > a:hover, .contact > a:hover {
+    color: skyblue;
+}
