@@ -17,7 +17,7 @@ const activities = [
         category: "Nature",
         description:
             "Explore Taniti's lush rainforest through hiking trails and exciting zip-line experiences.",
-        image: "/rainforest.jpg"
+        image: "/rainforest_1.jpg"
     },
     {
         id: 3,
